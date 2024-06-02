@@ -43,24 +43,25 @@ export default function Home() {
           {/*Card 1*/}
           <div className="card w-96 bg-base-100 shadow-xl mr-5">
             <figure className="px-10 pt-10">
-              <Image src={searchImg} alt="Search Icon" className="rounded-xl" />
+              <Image src={locationImg} alt="Map Icon" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">Step 1</h2>
-              <p>Search for a fruit. Try searching for an apple tree!</p>
+              <p>Allow us to use your location to find nearby fruit trees.</p>
             </div>
           </div>
 
           {/*Card 2*/}
           <div className="card w-96 bg-base-100 shadow-xl mr-5">
             <figure className="px-10 pt-10">
-              <Image src={locationImg} alt="Map Icon" className="rounded-xl" />
+              <Image src={searchImg} alt="Search Icon" className="rounded-xl" />
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">Step 2</h2>
-              <p>Allow us to use your location to find nearby fruit trees</p>
+              <p>Explore trees in your area, or search for others by city and state. You can even filter by your favorite fruit type.</p>
             </div>
           </div>
+          
 
           {/*Card 3*/}
           <div className="card w-96 bg-base-100 shadow-xl">
@@ -73,7 +74,7 @@ export default function Home() {
             </figure>
             <div className="card-body items-center text-center">
               <h2 className="card-title">Step 3</h2>
-              <p>Pick out a tree to visit!</p>
+              <p>Pick out a tree to visit and then leave a review!</p>
             </div>
           </div>
         </div>
